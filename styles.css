@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;    
+    font-family: 'Dosis', sans-serif;
 }
 
 body {
@@ -12,16 +13,14 @@ body {
     justify-content: center;
 }
 
-.container-central {
+.container {
     border: 2px solid #fff;
     padding: 30px 40px;
-    width: auto;
-    font-family: 'Dosis', sans-serif;
-    font-family: 'Fira Code', monospace;
-    font-family: 'Smooch', cursive;
+    width: 40%;
+    min-width: 500px;
 }
 
-.container-tarefa {
+.new-task-container {
     background-color: #fff;
     padding: 30px 20px;
     border-radius: 5px;
@@ -29,3 +28,30 @@ body {
     display: flex;
 }
 
+.new-task-container input {
+    flex: 3;
+    font-size: 1rem;
+    border: 2px solid #d1d3d4;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.new-task-container input:focus {
+    outline: none;
+    border-color:  rgba(21, 179, 21, 0.808);
+}
+
+.new-task-button {
+    flex: 1;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: rgba(21, 179, 21, 0.808);
+    color: #fff;
+    padding: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+}
