@@ -55,3 +55,12 @@ body {
     margin-left: 12px;
     cursor: pointer;
 }
+
+.tasks-container {
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+    width: 100%;
+}
