@@ -5,5 +5,27 @@
 }
 
 body {
+    height: 100vh;
     background: linear-gradient(90deg, rgba(3, 179, 248, 0.637)0%, rgba(133, 11, 233, 0.842)100% );
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.container-central {
+    border: 2px solid #fff;
+    padding: 30px 40px;
+    width: auto;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Smooch', cursive;
+}
+
+.container-tarefa {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+    display: flex;
+}
+
