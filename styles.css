@@ -64,3 +64,18 @@ body {
     box-shadow: 0 15px 30px rgba(0,0,0,0.6);
     width: 100%;
 }
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}
+
+/* Utilities */
+.error {
+    border: 2px solid red !important;
+}
+
+.error::placeholder {
+    color: red;
+}
