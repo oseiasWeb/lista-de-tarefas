@@ -1,7 +1,7 @@
 # Projeto Lista de Tarefas (HTML/CSS/JS)
-Projeto elaborado para criação de tarefas.
+Projeto elaborado para adicionar, checar ou excluir tarefas.
 
-[<img src="">]
+[<img src="./src/imagens/list.gif" alt="Página de tarefas" title="Lista Tarefas">]
 
 ## Tecnologias Utilizadas
 - HTML
