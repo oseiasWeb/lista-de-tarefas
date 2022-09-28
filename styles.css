@@ -81,6 +81,11 @@ body {
     border-radius: 5px;
 }
 
+/* Incluir Cursor (Excluir)*/
+.task-item i:hover {
+    cursor: pointer;
+}
+
 /* Utilities */
 .error {
     border: 2px solid red !important;

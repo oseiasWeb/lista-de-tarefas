@@ -36,6 +36,8 @@ const handleAddTask = () => {
 
     /*Limpar o campo após informar a tarefa*/
     inputElement.value = "";
+
+    updateLocalStorage();
 };
 
 const handleClick = (taskContent) => {
@@ -48,6 +50,8 @@ const handleClick = (taskContent) => {
             task.firstChild.classList.toggle("completed");
         }    
     }
+
+    updateLocalStorage();
 };
 
 const handleDeleteClick = (taskItemContainer, taskContent) => {
@@ -60,6 +64,8 @@ const handleDeleteClick = (taskItemContainer, taskContent) => {
             taskItemContainer.remove();
         }
     }
+
+    updateLocalStorage();
 };
 
 const handleInputChange = () => {
@@ -68,6 +74,14 @@ const handleInputChange = () => {
         return inputElement.classList.remove("error");
     }
 };
+
+/* Manter histórico de tarefas */
+const updateLocalStorage = () => {
+    const tasks = tasksContainer.childNodes;
+    const localStorageTasks = [... tasks].map(task =>{
+        
+    });
+}
 
 addTaskButton.addEventListener("click", () => handleAddTask());
 
