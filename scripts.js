@@ -75,13 +75,19 @@ const handleInputChange = () => {
     }
 };
 
-/* Manter histórico de tarefas */
+/* Armagenamento do Local/Storage */
 const updateLocalStorage = () => {
     const tasks = tasksContainer.childNodes;
-    const localStorageTasks = [... tasks].map(task =>{
-        
+
+    const localStorageTasks = [... tasks].map(task => {
+        const content = task.firstChild;
+        const isCompleted = content.classList.contains("completed");
+
+        return {description: content.innerText, isCompleted};
     });
-}
+
+    localStorage.setItem("tasks", JSON.stringify(localStorageTasks));
+};
 
 addTaskButton.addEventListener("click", () => handleAddTask());
 
