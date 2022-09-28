@@ -5,7 +5,7 @@
     font-family: 'Dosis', sans-serif;
 }
 
-body {
+body{
     height: 100vh;
     background: linear-gradient(90deg, rgba(3, 179, 248, 0.637)0%, rgba(133, 11, 233, 0.842)100% );
     display: flex;
@@ -20,11 +20,23 @@ body {
     min-width: 500px;
 }
 
+.title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 26px;
+    padding: 8px;
+    border-radius: 20px;
+    font-family: 'Raleway';
+    background-color: #5128af70;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.7);
+}
+
 .new-task-container {
     background-color: #fff;
     padding: 30px 20px;
     border-radius: 5px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.7);
     display: flex;
 }
 
@@ -59,9 +71,9 @@ body {
 .tasks-container {
     background-color: #fff;
     padding: 30px 20px;
-    margin-top: 60px;
-    border-radius: 10px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.7);
     width: 100%;
 }
 
