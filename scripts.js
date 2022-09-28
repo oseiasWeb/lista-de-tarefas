@@ -1,6 +1,5 @@
 const inputElement = document.querySelector(".new-task-input");
 const addTaskButton = document.querySelector(".new-task-button");
-
 const tasksContainer = document.querySelector(".tasks-container");
 
 /* Validação de campo simplificado*/
@@ -88,6 +87,39 @@ const updateLocalStorage = () => {
 
     localStorage.setItem("tasks", JSON.stringify(localStorageTasks));
 };
+
+/*Manter informações na tela (Navegador)*/
+const refreshTasksUsingLocalStorage = () => {
+    const tasksFromLocalStorage = JSON.parse(localStorage.getItem('tasks'));
+
+    for(const task of tasksFromLocalStorage){
+        const taskItemContainer = document.createElement("div");
+        taskItemContainer.classList.add("task-item");
+
+        const taskContent = document.createElement("p");
+        taskContent.innerText = task.description;
+
+        if(task.isCompleted){
+            taskContent.classList.add("completed");
+        }
+
+        taskContent.addEventListener('click', () => handleClick(taskContent));
+
+        const deleteItem = document.createElement("i");
+        deleteItem.classList.add("far");
+        deleteItem.classList.add("fa-trash-alt");
+
+        deleteItem.addEventListener('click', () => handleDeleteClick(taskItemContainer, taskContent));
+
+        taskItemContainer.appendChild(taskContent);
+        taskItemContainer.appendChild(deleteItem);
+
+        tasksContainer.appendChild(taskItemContainer);
+    }
+
+}
+
+refreshTasksUsingLocalStorage();
 
 addTaskButton.addEventListener("click", () => handleAddTask());
 
