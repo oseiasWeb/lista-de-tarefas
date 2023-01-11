@@ -1,17 +1,28 @@
-# Projeto Lista de Tarefas (HTML/CSS/JS)
-Projeto elaborado para adicionar, checar ou excluir tarefas.
+<h1 align="center">Lista de Tarefas</h1>
+<p>Projeto elaborado para adicionar, checar ou excluir tarefas.📰<p>
 
-[<img src="./src/imagens/list.gif" alt="Página de tarefas" title="Lista Tarefas">]
+<h2 align="center">*** Tecnologias Utilizadas ***</h2>
+<ul>
+    <li>HTML ✏️</li>
+    <li>CSS 🎨</li>
+    <li>JS 🧐</li>
+</ul>
 
-## Tecnologias Utilizadas
-- HTML
-- CSS
-- JavaScript
+<h2 align="center">*** Como Utilizar ***</h2>
+<p>
+<ol>
+    <li> Inserir a tarefa desejada no campo.</li>
+    <li> Clicar em adicionar. (Tarefa listada em seguida)</li>
+    <li> As tarefas listadas podem ser riscadas ou excluidas.</li>
+</ol>
+Abaixo temos um pequeno gif com as funcionalidades do sistema:</p>
 
-## Como Utilizar?
-1 - Inserir a tarefa desejada no campo.
-2 - Clicar em adicionar. (Tarefa listada em seguida)
-3 - As tarefas listadas podem ser riscadas ou excluidas.
+<img align="center" src="./src/imagens/list.gif" alt="Página de tarefas" title="Lista Tarefas"><p>Gif - funcionalidades do sistema</p>
 
-## Link Página do Projeto:
-https://oseiasweb.github.io/lista-de-tarefas/
+<h2 align="center">*** Link da página ***</h2>
+<p>Abaixo temos o link da página para visualização e testes:</p>
+🔗 <a href="https://oseiasweb.github.io/lista-de-tarefas/" target="_blank" class="linkedin">Lista de Tarefas</a><br>
+
+<br>
+<h2 align="center">*** Status Projeto ***</h2>
+<p align="center"><img src="./src/imagens/finalizado.png" alt="Página de tarefas" title="Lista Tarefas"></p>
