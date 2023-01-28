@@ -1,22 +1,18 @@
-<h1 align="center">Lista de Tarefas</h1>
-<p>Projeto elaborado para adicionar, checar ou excluir tarefas.📰<p>
+<h1 align="center">📝 Lista de Tarefas ✔️</h1>
+<p>Projeto de um gerador de tarefas. A página consiste em  adicionar, checar ou excluir tarefas.<p>
 
-<h2 align="center">*** Tecnologias Utilizadas ***</h2>
-<ul>
-    <li>HTML ✏️</li>
-    <li>CSS 🎨</li>
-    <li>JS 🧐</li>
-</ul>
+<div align="center" valign="top"><br>
+ <h2>🕹️ Tecnologias Utilizadas</h2>
+    <ul align="center">
+        <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+        <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+        <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+    </ul><br>
+</div>
 
-<h2 align="center">*** Como Utilizar ***</h2>
-<p>
-<ol>
-    <li> Inserir a tarefa desejada no campo.</li>
-    <li> Clicar em adicionar. (Tarefa listada em seguida)</li>
-    <li> As tarefas listadas podem ser riscadas ou excluidas.</li>
-</ol>
-Abaixo temos um pequeno gif com as funcionalidades do sistema:</p>
 
+<h2 align="center">🤔 Como Utilizar</h2>
+<p>Inserir a tarefa desejada no campo, depois clique em adicionar. As tarefas listadas podem ser riscadas ou excluídas. Abaixo temos um pequeno gif com a apresentação do sistema:</p><br>
 <img align="center" src="./src/imagens/list.gif" alt="Página de tarefas" title="Lista Tarefas"><p>Gif - funcionalidades do sistema</p>
 
 <h2 align="center">*** Link da página ***</h2>
